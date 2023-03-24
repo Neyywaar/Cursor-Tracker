@@ -69,10 +69,10 @@ html{
 .copy{
     text-align: center;
     align-items: flex-end;
-    margin-top: 25rem;
     font-weight: 300;
     font-size: 1.2rem;
-    bottom: 3rem;
+    margin-top: 25rem;
+    margin-bottom: 3rem;
 }
 
 a{
@@ -82,6 +82,7 @@ a{
 
 @media (max-width: 420px) {
     .head{
+        padding-top: 4rem;
         font-size: 4rem;
     }
 
@@ -92,5 +93,11 @@ a{
     .container{
         display: flex;
         flex-direction: column;
+        margin-top: 6rem;
+    }
+
+    .copy{
+        margin-bottom: 3rem;
+        margin-top: 15rem;
     }
 }
