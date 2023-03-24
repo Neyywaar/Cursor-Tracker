@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins',sans-serif;
+}
+
+:root{
+    --main: #FA7921;
+}
+  
+
+.hero{
+    justify-content: center;
+}
+
+.head{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.imp{
+    color: var(--main);
+}
+
+.headsub{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 15rem;
+    gap: 5rem;
+}
+
+.xcord, .ycord{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.cordtext{
+    font-size: 1.4rem;
+}
+
+.cord{
+    padding: 2rem 5rem;
+    background-color: var(--main);
+    color: #ffffff;
+    font-size: 6rem;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+}
+  
+.copy{
+    text-align: center;
+    align-items: flex-end;
+    margin-top: 25rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    bottom: 3rem;
+}
+
+@media (max-width: 500px) {
+    .container {
+      flex-direction: column;
+    }
+}
